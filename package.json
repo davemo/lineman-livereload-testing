@@ -1,0 +1,15 @@
+{
+  "name": "livereload-lineman",
+  "description": "An HTML/JS/CSS app",
+  "version": "0.0.1",
+  "private": true,
+  "author": "John Doe",
+  "devDependencies": {
+    "lineman": "git://github.com/linemanjs/lineman.git#grunt-contrib-watch",
+    "lineman-livereload": "git://github.com/linemanjs/lineman-livereload.git"
+  },
+  "scripts": {
+    "start": "lineman run",
+    "test": "lineman spec-ci"
+  }
+}
